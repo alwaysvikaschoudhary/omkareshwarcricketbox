@@ -885,6 +885,10 @@ footer {
 
 /* Mobile (up to 480px) */
 @media (max-width: 480px) {
+    .section {
+        padding: var(--space-lg) 0;
+    }
+
     .hero-content {
         margin-top: 100px;
     }
@@ -901,15 +905,20 @@ footer {
     .stats {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        gap: 15px;
+        padding: 15px;
     }
 
     .stat-item:last-child {
         grid-column: span 2;
     }
 
+    .features-grid {
+        gap: 15px;
+    }
+
     .feature-card {
-        padding: 30px 20px;
+        padding: 15px 15px;
     }
 
     .slide-image {
@@ -936,7 +945,11 @@ footer {
     }
 
     .price-card {
-        padding: var(--space-md);
+        padding: 15px;
+    }
+
+    .review-card {
+        padding: 15px;
     }
 }
 
