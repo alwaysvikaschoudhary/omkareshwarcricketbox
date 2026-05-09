@@ -914,11 +914,16 @@ footer {
     }
 
     .features-grid {
+        grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
 
     .feature-card {
-        padding: 15px 15px;
+        padding: 12px 10px;
+    }
+
+    .feature-card h3 {
+        font-size: 1rem;
     }
 
     .slide-image {
