@@ -218,7 +218,7 @@ const applyPricingOffer = () => {
             
             const amountSpan = p.querySelector('.amount');
             const originalPrice = parseInt(amountSpan.getAttribute('data-original'));
-            const newPrice = originalPrice * 0.5;
+            const newPrice = originalPrice * 0.6;
             
             // Add old price strike element
             let oldSpan = p.querySelector('.old-amount');
